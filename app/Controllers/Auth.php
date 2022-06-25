@@ -15,7 +15,6 @@ class Auth extends BaseController
 
     public function register()
     {
-
         if ($this->request->getPost()) {
             //lakukan validasi untuk data yang di post
             $data = $this->request->getPost();
